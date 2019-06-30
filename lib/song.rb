@@ -45,6 +45,7 @@ class Song
     new_filename = filename.chomp(".mp3").split("-")
     song.name = new_filename[1]
     song.artist_name = new_filename[0]
-    song
+    song.name 
+    song.artist_name
   end
 end
