@@ -46,6 +46,6 @@ class Song
     song.artist_name = split_filename[0]
     song_name = split_filename[1].chomp(".mp3")
     song.name = song_name
-    
+    song
   end
 end
